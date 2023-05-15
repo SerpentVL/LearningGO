@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	//"os"
 )
 
 func main() {
@@ -20,12 +21,12 @@ func main() {
 	fmt.Println("И потом нажми Enter")
 	fmt.Println("Ты поняла ?")
 
-	// -- пока не работает --
-	answer := "" // -- это строка --
-	fmt.Scanln(answer)
+	var answer string
+	fmt.Scan(&answer)
 
 	if answer == "yes" {
-		fmt.Println("\nПопилили!")
+		fmt.Println("--------------")
+		fmt.Println("Погнали!")
 	}
 
 }
