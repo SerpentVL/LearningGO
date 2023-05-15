@@ -5,7 +5,6 @@ import (
 )
 
 func Start() string {
-
 	fmt.Println("Я буду задавать вопросы, а ты будешь мне отвечать на клавиатуре. ")
 	fmt.Println("По-английски. ")
 	fmt.Println("Если твой ответ - да,  то набирай на клавиатуре yes ")
@@ -16,6 +15,27 @@ func Start() string {
 	var answer string
 	fmt.Scan(&answer)
 	return answer
+}
+
+// -- двоичный поиск задуманного числа --
+
+func Work(number int) int {
+	var first int = 1
+	var last int = number
+	var middle int
+	var answer string
+	for first < last {
+		middle = first + (last-first)/2
+		fmt.Println(first, middle, last)
+		fmt.Println("Ты задумала число БОЛЬШЕ ", middle, "?")
+		fmt.Scan(&answer)
+		if answer == "yes" {
+			first = middle + 1
+		} else if answer == "no" {
+			last = middle
+		}
+	}
+	return first
 }
 
 func main() {
@@ -33,6 +53,8 @@ func main() {
 	if answer == "yes" {
 		fmt.Println("--------------")
 		fmt.Println("Погнали!")
+		Number := Work(number)
+		fmt.Println(Number)
 	} else if answer == "no" {
 		fmt.Println("--------------")
 		fmt.Println("До свидания!")
