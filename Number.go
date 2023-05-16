@@ -18,7 +18,6 @@ func Start() string {
 }
 
 // -- двоичный поиск задуманного числа --
-
 func Work(number int) int {
 	var first int = 1
 	var last int = number
@@ -26,7 +25,7 @@ func Work(number int) int {
 	var answer string
 	for first < last {
 		middle = first + (last-first)/2
-		fmt.Println(first, middle, last)
+		//fmt.Println(first, middle, last)
 		fmt.Println("Ты задумала число БОЛЬШЕ ", middle, "?")
 		fmt.Scan(&answer)
 		if answer == "yes" {
