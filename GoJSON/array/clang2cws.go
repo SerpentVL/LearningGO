@@ -5,6 +5,7 @@ import (
 )
 
 type Bug struct {
+	Priority       string
 	Type           string
 	Category       string
 	CWE            int
