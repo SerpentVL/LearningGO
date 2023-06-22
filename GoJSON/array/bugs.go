@@ -1,6 +1,6 @@
 package array
 
-var bugs = []Bug{
+var Bugs = []Bug{
 	{"Out-of-bound array access", "Logic Error", 788, "Выход за пределы массива"},
 	{"Out-of-bound access", "Logic Error", 788, "Выход за пределы"},
 	{"Call to blocking function in critical section", "Blocking Error", 557, "Вызов блокирующей функции в критической секции"},

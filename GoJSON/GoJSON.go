@@ -1,6 +1,8 @@
 package main
 
 import (
+	"array"
+
 	"encoding/json"
 	"fmt"
 	"os"
@@ -16,5 +18,6 @@ func saveToJSON(filename *os.File, key interface{}) {
 }
 
 func main() {
-	saveToJSON(os.Stdout, array.bugs)
+	saveToJSON(os.Stdout, array.Bugs)
+
 }
