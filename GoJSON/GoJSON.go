@@ -1,7 +1,7 @@
 package main
 
 import (
-	"array"
+	"LearningGO/GoJSON/array"
 
 	"encoding/json"
 	"fmt"

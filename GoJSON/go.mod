@@ -1,3 +1,3 @@
-module github.com/SerpentVL/LearningGO/GoJSON
+module LearningGO/GoJSON
 
 go 1.18

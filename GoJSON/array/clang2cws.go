@@ -13,7 +13,7 @@ type Bug struct {
 
 func FindCWE(bug_type string, bug_category string) *Bug {
 	// Simple cases
-	for _, bug := range bugs {
+	for _, bug := range Bugs {
 		if strings.EqualFold(bug_type, bug.Type) && strings.EqualFold(bug_category, bug.Category) {
 			return &bug
 		}
