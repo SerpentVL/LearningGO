@@ -13,7 +13,7 @@ import (
 func saveToJSON(filename string, data []byte) {
 	fileJSON, err := os.Create(filename)
 	if err != nil {
-		log.Fatalf("Сбой маршаллинга JSON: %s", err)
+		log.Fatalf("Не создался файл JSON: %s", err)
 	}
 	defer fileJSON.Close()
 	fmt.Fprintf(fileJSON, string(data))
@@ -24,7 +24,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Сбой маршаллинга JSON: %s", err)
 	}
-	fmt.Printf("%s\n", data) // -- вместо этого - запись в файл --
-	saveToJSON("clang-bugs.json", data)
+	fmt.Printf("%s\n", data)            // -- вместо этого - запись в файл --
+	saveToJSON("clang-bugs.json", data) // -- записали в файл --
 
 }
