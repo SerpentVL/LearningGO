@@ -1,11 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "GoJSON"
-		},
+			"path": "JsonToGo"
+		}
 		{
 			"path": "GoToJSON"
 		}
+
 	],
 	"settings": {}
 }
