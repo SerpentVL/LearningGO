@@ -9,21 +9,22 @@ import (
 	"os"
 )
 
-func saveToJSON(filename *os.File, key interface{}) {
-	encodeJSON := json.NewEncoder(filename)
-	err := encodeJSON.Encode(key)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-}
-
-func main() {
-	data, err := json.MarshalIndent(array.Bugs, "", " ")
+// -- вывод jSON в файл --
+func saveToJSON(filename string, data []byte) {
+	fileJSON, err := os.Create(filename)
 	if err != nil {
 		log.Fatalf("Сбой маршаллинга JSON: %s", err)
 	}
-	fmt.Printf("%s\n", data)
-	//saveToJSON(os.Stdout, array.Bugs)
+	defer fileJSON.Close()
+	fmt.Fprintf(fileJSON, string(data))
+}
+
+func main() {
+	data, err := json.MarshalIndent(array.Bugs, "", " ") // -- преобразование слайса в JSON в красивом виде --
+	if err != nil {
+		log.Fatalf("Сбой маршаллинга JSON: %s", err)
+	}
+	fmt.Printf("%s\n", data) // -- вместо этого - запись в файл --
+	saveToJSON("clang-bugs.json", data)
 
 }
