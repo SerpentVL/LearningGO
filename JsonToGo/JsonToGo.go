@@ -35,6 +35,7 @@ func loadJSON(filename string) []array.Bug {
 func main() {
 
 	data := loadJSON("clang-bugs.json")
+	fmt.Println(len(data))
 
 	for _, arg := range data {
 		fmt.Printf("{%s %s %s %d %s},\n", arg.Priority, arg.Type, arg.Category, arg.CWE, arg.TranslatedType)
