@@ -16,7 +16,9 @@ func saveToJSON(filename string, data []byte) {
 		log.Fatalf("Не создался файл JSON: %s", err)
 	}
 	defer fileJSON.Close()
-	fmt.Fprintf(fileJSON, string(data))
+	//fmt.Fprintf(fileJSON, "%s\n", string(data))
+
+	fileJSON.Write(data)
 }
 
 func main() {

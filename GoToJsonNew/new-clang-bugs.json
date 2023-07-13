@@ -1,0 +1,1418 @@
+[
+ {
+  "Priority": "0.0",
+  "Type": "Analyzer Statistics",
+  "EndType": "",
+  "Category": "Internal Statistics",
+  "CWE": 699,
+  "TranslatedType": "Статистика анализатора"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Sink Point",
+  "EndType": "",
+  "Category": "Internal Statistics",
+  "CWE": 699,
+  "TranslatedType": "Точка стока"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Out-of-bound array access",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 788,
+  "TranslatedType": "Выход за пределы массива"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Out-of-bound access",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 788,
+  "TranslatedType": "Выход за пределы памяти"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "nil argument",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 687,
+  "TranslatedType": "нулевой аргумент"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Bad use of CFNumber APIs",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 1228,
+  "TranslatedType": "Плохое использование CFNumber APIs"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "null passed to CF memory management function",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "ноль передан в функцию управления памятью CF"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "message incorrectly sent to class instead of class instance",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "сообщение ошибочно отправлено классу, а не экземпляру"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Arguments passed to variadic method aren't all Objective-C pointer types",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "Не все аргументы переданные в вариативный метод являются указателями типа Objective-C"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Call to blocking function in critical section",
+  "EndType": "",
+  "Category": "Blocking Error",
+  "CWE": 557,
+  "TranslatedType": "Вызов блокирующей функции в критической секции"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Assignment of a non-Boolean value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 681,
+  "TranslatedType": "Присвоение не-булевого значения"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Improper arguments",
+  "EndType": "",
+  "Category": "Unix API",
+  "CWE": 628,
+  "TranslatedType": "Неправильные аргументы"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Unix API",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 1006,
+  "TranslatedType": "Unix API"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Accessing unitialized/garbage values",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 908,
+  "TranslatedType": "Обращение к неинициализированным/мусорным значениям"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "API",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 1006,
+  "TranslatedType": "API"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Anti-pattern in the argument",
+  "EndType": "",
+  "Category": "C String API",
+  "CWE": 398,
+  "TranslatedType": "Анти-паттерн в аргументе"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Uninitialized argument value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 687,
+  "TranslatedType": "Неинициализированное значение аргумента"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Called function pointer is an uninitialized pointer value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Попытка вызова по неинициализированному указателю на функцию"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "Called function pointer is null (null dereference)",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 476,
+  "TranslatedType": "Попытка вызова по нулевому указателю на функцию (разыменование нулевого указателя)"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Function call with too few arguments",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 685,
+  "TranslatedType": "Вызов функции с недостаточным количеством аргументов"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Called C++ object pointer is uninitialized",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Попытка вызова по неинициализированному указателю на объект C++"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "Called C++ object pointer is null",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 476,
+  "TranslatedType": "Попытка вызова по нулевому указателю на объект C++"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Uninitialized argument value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Неинициализированное значение аргумента"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Receiver in message expression is an uninitialized value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "В выражении, описывающем сообщение, получатель не инициализирован"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Property access on an uninitialized object pointer",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Доступ к свойству объекта через неинициализированный указатель на объект"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Subscript access on an uninitialized object pointer",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Доступ по смещению через неинициализированный указатель на объект"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Receiver in message expression is 'nil'",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 465,
+  "TranslatedType": "В выражении, описывающем сообщение, получатель -- 'nil'"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Cast region with wrong size.",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 704,
+  "TranslatedType": "Приведение типа региона к типу неподходящего размера"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Cast from non-struct type to struct type",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 704,
+  "TranslatedType": "Преобразование типа из неструктурного в структурный"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Widening cast to struct type",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 704,
+  "TranslatedType": "Попытка преобразовать структурный тип в супертип"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Missing -dealloc",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 399,
+  "TranslatedType": "Отсутствует -dealloc"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Missing ivar release (leak)",
+  "EndType": "",
+  "Category": "Memory (Core Foundation/Objective-C/OSObject)",
+  "CWE": 401,
+  "TranslatedType": "Отсутствует освобождение ivar (утечка)"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Extra ivar release",
+  "EndType": "",
+  "Category": "Memory (Core Foundation/Objective-C/OSObject)",
+  "CWE": 1341,
+  "TranslatedType": "Лишнее освобождение ivar"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Mistaken dealloc",
+  "EndType": "",
+  "Category": "Memory (Core Foundation/Objective-C/OSObject)",
+  "CWE": 399,
+  "TranslatedType": "Ошибочный вызов dealloc"
+ },
+ {
+  "Priority": "0.6",
+  "Type": "Incompatible instance method return type",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 389,
+  "TranslatedType": "Несовместимый тип возвращаемого значения в методе экземпляра"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Insufficient storage for placement new",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 1202,
+  "TranslatedType": "Недостаточно места для placement new"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Bad align storage for placement new",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 1202,
+  "TranslatedType": "Плохое выравнивание хранилища для placement new"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Floating point variable used as loop counter",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 254,
+  "TranslatedType": "Переменная с плавающей запятой используется как счетчик цикла"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Use of deprecated function in call to 'bcmp()'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 477,
+  "TranslatedType": "Использование устаревшей функции при вызове 'bcmp()'"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Use of deprecated function in call to 'bcopy()'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 477,
+  "TranslatedType": "Использование устаревшей функции при вызове 'bcopy()'"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Use of deprecated function in call to 'bzero()'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 477,
+  "TranslatedType": "Использование устаревшей функции при вызове 'bzero()'"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Potential buffer overflow in call to 'gets'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 242,
+  "TranslatedType": "Потенциальное переполнение буфера при вызове 'gets'"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Potential buffer overflow in call to 'getpw'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 477,
+  "TranslatedType": "Потенциальное переполнение буфера при вызове 'getpw'"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Potential insecure temporary file in call 'mktemp'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 377,
+  "TranslatedType": "Потенциально небезопасный временный файл в вызове 'mktemp'"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Insecure temporary file creation",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 378,
+  "TranslatedType": "Небезопасное создание временного файла"
+ },
+ {
+  "Priority": "1.0",
+  "Type": "Potential insecure memory buffer bounds restriction in call 'strcpy'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 119,
+  "TranslatedType": "Потенциально небезопасное задание границ буфера при вызове 'strcpy'"
+ },
+ {
+  "Priority": "1.0",
+  "Type": "Potential insecure memory buffer bounds restriction in call 'strcat'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 119,
+  "TranslatedType": "Потенциально небезопасное задание границ буфера при вызове 'strcat'"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Potential insecure memory buffer bounds restriction in call '",
+  "EndType": "'",
+  "Category": "Security",
+  "CWE": 1218,
+  "TranslatedType": "Потенциально небезопасное ограничение границ буфера памяти при вызове "
+ },
+ {
+  "Priority": "0.0",
+  "Type": "'",
+  "EndType": "' is a poor random number generator",
+  "Category": "Security",
+  "CWE": 338,
+  "TranslatedType": " является плохим генератором случайных чисел"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "'random' is not a secure random number generator",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 338,
+  "TranslatedType": "'random' не является безопасным генератором случайных чисел"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Potential insecure implementation-specific behavior in call 'vfork'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 242,
+  "TranslatedType": "Потенциально небезопасное поведение, определяемое реализацией, в вызове 'vfork'"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Potential buffer overflow in '-decodeValueOfObjCType:at:'",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 1218,
+  "TranslatedType": "Потенциальное переполнение буфера в '-decodeValueOfObjCType:at:'"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Return value is not checked in call to '",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 252,
+  "TranslatedType": "Возвращаемое значение не проверяется в функции вызова"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Potential unintended use of sizeof() on pointer type",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 467,
+  "TranslatedType": "Возможно непреднамеренное применение sizeof() к указателю"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "Break out of jail",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 243,
+  "TranslatedType": "Выход за пределы jail"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Exact code clone",
+  "EndType": "",
+  "Category": "Code clone",
+  "CWE": 1041,
+  "TranslatedType": "Точная копия кода"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Suspicious code clone",
+  "EndType": "",
+  "Category": "Code clone",
+  "CWE": 1041,
+  "TranslatedType": "Подозрительная копия кода"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Conversion",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 681,
+  "TranslatedType": "Преобразование. Возможная потеря знака/точности"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Dead initialization",
+  "EndType": "",
+  "Category": "Unused code",
+  "CWE": 563,
+  "TranslatedType": "Неиспользуемая инициализация"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Dead increment",
+  "EndType": "",
+  "Category": "Unused code",
+  "CWE": 563,
+  "TranslatedType": "Неиспользуемый инкремент"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Dead assignment",
+  "EndType": "",
+  "Category": "Unused code",
+  "CWE": 563,
+  "TranslatedType": "Неиспользуемое присваивание"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Dead nested assignment",
+  "EndType": "",
+  "Category": "Unused code",
+  "CWE": 563,
+  "TranslatedType": "Неиспользуемое вложенное присваивание"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Checking analyzer assumptions",
+  "EndType": "",
+  "Category": "debug",
+  "CWE": 1207,
+  "TranslatedType": "Проверка предположений анализатора"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Destruction of a polymorphic object with no virtual destructor",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 1079,
+  "TranslatedType": "Попытка деструкции полиморфного объекта, не имеющего виртуального деструктора"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Dereference of null pointer",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 476,
+  "TranslatedType": "Разыменование нулевого указателя"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Dereference of undefined pointer value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Разыменование указателя с неопределенным значением"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Property access",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 1006,
+  "TranslatedType": "Получение доступа к свойству"
+ },
+ {
+  "Priority": "1.0",
+  "Type": "Division by zero",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 369,
+  "TranslatedType": "Деление на ноль"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Dynamic and static type mismatch",
+  "EndType": "",
+  "Category": "Type Error",
+  "CWE": 136,
+  "TranslatedType": "Несоответствие динамического и статического типов"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Generics",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 704,
+  "TranslatedType": "Дженерики"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Enum cast out of range",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 704,
+  "TranslatedType": "Приводимое значение выходит за пределы перечисляемого типа"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Value of 'errno' was not checked",
+  "EndType": "",
+  "Category": "Error handling",
+  "CWE": 1006,
+  "TranslatedType": "Значение 'errno' не проверяется"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Value of 'errno' could be undefined",
+  "EndType": "",
+  "Category": "Error handling",
+  "CWE": 1006,
+  "TranslatedType": "Значение 'errno' может быть неопределенным"
+ },
+ {
+  "Priority": "0.1",
+  "Type": "Use fixed address",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 587,
+  "TranslatedType": "Использование фиксированного адреса"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Fuchsia handle leak",
+  "EndType": "",
+  "Category": "Fuchsia Handle Error",
+  "CWE": 772,
+  "TranslatedType": "Утечка памяти обработчика Fuchsia"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Fuchsia handle double release",
+  "EndType": "",
+  "Category": "Fuchsia Handle Error",
+  "CWE": 1341,
+  "TranslatedType": "Двойное освобождение памяти обработчика Fuchsia"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Fuchsia handle release of unowned handle",
+  "EndType": "",
+  "Category": "Fuchsia Handle Error",
+  "CWE": 399,
+  "TranslatedType": "Освобождение обработчика Fuchsia бесхозным обработчиком"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Fuchsia handle use after release",
+  "EndType": "",
+  "Category": "Fuchsia Handle Error",
+  "CWE": 399,
+  "TranslatedType": "Использование обработчика Fuchsia после освобождения памяти"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "GCD performance anti-pattern",
+  "EndType": "",
+  "Category": "Performance",
+  "CWE": 398,
+  "TranslatedType": "Анти-паттерн производительности GCD"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Use of Untrusted Data",
+  "EndType": "",
+  "Category": "Untrusted Data",
+  "CWE": 502,
+  "TranslatedType": "Использование ненадежных данных"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Use of identical expressions",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 1041,
+  "TranslatedType": "Использование идентичных выражений"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Identical conditions",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 1041,
+  "TranslatedType": "Идентичные условия"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Identical branches",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 1041,
+  "TranslatedType": "Идентичные ветки"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Compare of identical expressions",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 569,
+  "TranslatedType": "Сравнение идентичных выражений"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Identical expressions in conditional expression",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 569,
+  "TranslatedType": "Идентичные выражения в условии"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Iterator invalidated",
+  "EndType": "",
+  "Category": "Misuse of STL APIs",
+  "CWE": 825,
+  "TranslatedType": "Итератор инвалидирован"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Iterator out of range",
+  "EndType": "",
+  "Category": "Misuse of STL APIs",
+  "CWE": 465,
+  "TranslatedType": "Итератор вышел за пределы"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Incomplete invalidation",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 459,
+  "TranslatedType": "Неполная инвалидация"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "StringRef should not be bound to temporary std::string that it outlives",
+  "EndType": "",
+  "Category": "LLVM Conventions",
+  "CWE": 1006,
+  "TranslatedType": "StringRef не должен быть привязан к временному std::string, живет меньше"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "AST node allocates heap memory",
+  "EndType": "",
+  "Category": "LLVM Conventions",
+  "CWE": 399,
+  "TranslatedType": "Узел AST выделяет память в куче"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Unlocalizable string",
+  "EndType": "",
+  "Category": "Localizability Issue (Apple)",
+  "CWE": 398,
+  "TranslatedType": "Непереводимая строка"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Context Missing",
+  "EndType": "",
+  "Category": "Localizability Issue (Apple)",
+  "CWE": 398,
+  "TranslatedType": "Отсутствует контекст"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Plural Misuse",
+  "EndType": "",
+  "Category": "Localizability Issue (Apple)",
+  "CWE": 398,
+  "TranslatedType": "Неверное использование множественного числа"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Use-after-free (MIG calling convention violation)",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 399,
+  "TranslatedType": "Использование после освобождения памяти (нарушение согласования о вызовах MIG)"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Improper use of SecKeychain API",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 399,
+  "TranslatedType": "Неправильное использование API SecKeychain"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Improper use of 'dispatch_once'",
+  "EndType": "",
+  "Category": "API Misuse (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "Неправильное использование 'dispatch_once'"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Bad free",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 763,
+  "TranslatedType": "Плохой вызов free"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Free alloca()",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 590,
+  "TranslatedType": "Попытка освободить при помощи free блок, созданный при помощи alloca()"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Bad deallocator",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 763,
+  "TranslatedType": "Плохой деаллокатор"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Offset free",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 761,
+  "TranslatedType": "Вызов free с неправильным адресом блока памяти"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Use-after-free",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 416,
+  "TranslatedType": "Использование после освобождения"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Double free",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 415,
+  "TranslatedType": "Двойной вызов free"
+ },
+ {
+  "Priority": "0.2",
+  "Type": "Double delete",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 415,
+  "TranslatedType": "Двойной вызов delete"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Use of zero allocated",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 399,
+  "TranslatedType": "Попытка выделить блок памяти нулевого размера"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Memory leak",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 401,
+  "TranslatedType": "Утечка памяти"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "malloc() size overflow",
+  "EndType": "",
+  "Category": "Unix API",
+  "CWE": 789,
+  "TranslatedType": "Переполнение размера при вызове malloc"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Allocator sizeof operand mismatch",
+  "EndType": "",
+  "Category": "Unix API",
+  "CWE": 131,
+  "TranslatedType": "Аргумент sizeof не совпадает с типом указателя на выделяемую память"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Iterator(s) mismatched",
+  "EndType": "",
+  "Category": "Misuse of STL APIs",
+  "CWE": 1006,
+  "TranslatedType": "Несовпадение итераторов"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "W^X check fails, Write Exec prot flags set",
+  "EndType": "",
+  "Category": "Security",
+  "CWE": 200,
+  "TranslatedType": "Проверка W^X не пройдена, установлены оба флага - Write и Exec"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Use-after-move",
+  "EndType": "",
+  "Category": "C++ move semantics",
+  "CWE": 399,
+  "TranslatedType": "Попытка использования объекта после того, как он был перемещен (use-after-move)"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Use -drain instead of -release",
+  "EndType": "",
+  "Category": "API Upgrade (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "Используйте -drain вместо -release"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Bad return type when passing NSError**",
+  "EndType": "",
+  "Category": "Coding conventions (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "Плохой тип возвращаемого значения при передаче NSError**"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Bad return type when passing CFErrorRef*",
+  "EndType": "",
+  "Category": "Coding conventions (Apple)",
+  "CWE": 1006,
+  "TranslatedType": "Плохой тип возвращаемого значения при передаче CFErrorRef*"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "NSError** null dereference",
+  "EndType": "",
+  "Category": "Coding conventions (Apple)",
+  "CWE": 476,
+  "TranslatedType": "Попытка разыменования нулевого указателя NSError**"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "CFErrorRef* null dereference",
+  "EndType": "",
+  "Category": "Coding conventions (Apple)",
+  "CWE": 476,
+  "TranslatedType": "Попытка разыменования нулевого указателя CFErrorRef*"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Argument with 'nonnull' attribute passed null",
+  "EndType": "",
+  "Category": "API",
+  "CWE": 476,
+  "TranslatedType": "Аргумент с атрибутом 'nonnull' равен нулевому указателю"
+ },
+ {
+  "Priority": "0.8",
+  "Type": "Dereference of null pointer",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 476,
+  "TranslatedType": "Разыменование нулевого указателя"
+ },
+ {
+  "Priority": "0.6",
+  "Type": "Nullability",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 476,
+  "TranslatedType": "Возможность обнуления"
+ },
+ {
+  "Priority": "0.4",
+  "Type": "Suspicious number object conversion",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 682,
+  "TranslatedType": "Подозрительное преобразование числового объекта"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "OSObject C-Style Cast",
+  "EndType": "",
+  "Category": "Security error",
+  "CWE": 704,
+  "TranslatedType": "Приведение типа OSObject в C-стиле"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Uninitialized value used as mutex for @synchronized",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 662,
+  "TranslatedType": "Неинициализированное значение используется как мьютекс для @synchronized"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Nil value used as mutex for @synchronized() (no synchronization will occur)",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 662,
+  "TranslatedType": "Значение nil используется как мьютекс для @synchronized (синхронизации не будет)"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "",
+  "EndType": " autoreleasing out parameter inside autorelease pool",
+  "Category": "Memory (Core Foundation/Objective-C/OSObject)",
+  "CWE": 399,
+  "TranslatedType": " параметра автоосвобождения внутри пула автоосвобождения"
+ },
+ {
+  "Priority": "0.0",
+  "Type": " Invalid use of '",
+  "EndType": "'",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 1006,
+  "TranslatedType": "Неправильное использование "
+ },
+ {
+  "Priority": "0.5",
+  "Type": "CFArray API",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 465,
+  "TranslatedType": "CFArray API"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Missing call to superclass",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 1006,
+  "TranslatedType": "Отсутствует вызов суперкласса"
+ },
+ {
+  "Priority": "0.3",
+  "Type": "Objective-C property misuse",
+  "EndType": "",
+  "Category": "Logic error",
+  "CWE": 1006,
+  "TranslatedType": "Неправильное использование свойства в Objective-C"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Missing \"self = [(super or self) init...]\"",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 909,
+  "TranslatedType": "Отсутствует инициализация своего или родительского класса"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "[super dealloc] should not be called more than once",
+  "EndType": "",
+  "Category": "Core Foundation/Objective-C",
+  "CWE": 399,
+  "TranslatedType": "[super dealloc] не должен вызываться более одного раза"
+ },
+ {
+  "Priority": "0.1",
+  "Type": "Unused instance variable",
+  "EndType": "",
+  "Category": "Optimization",
+  "CWE": 1164,
+  "TranslatedType": "Неиспользованная переменная в экземпляре"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Excessive Padding",
+  "EndType": "",
+  "Category": "Performance",
+  "CWE": 1006,
+  "TranslatedType": "Чрезмерное заполнение"
+ },
+ {
+  "Priority": "0.6",
+  "Type": "Dangerous pointer arithmetic",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 188,
+  "TranslatedType": "Небезопасная арифметика указателей"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Iteration of pointer-like elements",
+  "EndType": "",
+  "Category": "Non-determinism",
+  "CWE": 465,
+  "TranslatedType": "Итерирование указателеподобных элементов"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Sorting of pointer-like elements",
+  "EndType": "",
+  "Category": "Non-determinism",
+  "CWE": 465,
+  "TranslatedType": "Сортировка указателеподобных элементов"
+ },
+ {
+  "Priority": "0.9",
+  "Type": "Pointer subtraction",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 469,
+  "TranslatedType": "Вычитание указателей"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Double locking",
+  "EndType": "",
+  "Category": "Lock checker",
+  "CWE": 667,
+  "TranslatedType": "Двойная блокировка"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Double unlocking",
+  "EndType": "",
+  "Category": "Lock checker",
+  "CWE": 667,
+  "TranslatedType": "Двойная разблокировка"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Use destroyed lock",
+  "EndType": "",
+  "Category": "Lock checker",
+  "CWE": 667,
+  "TranslatedType": "Использование уничтоженного мьютекса"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Init invalid lock",
+  "EndType": "",
+  "Category": "Lock checker",
+  "CWE": 667,
+  "TranslatedType": "Инициализация невалидного мьютекса"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Lock order reversal",
+  "EndType": "",
+  "Category": "Lock checker",
+  "CWE": 667,
+  "TranslatedType": "Нарушение порядка блокировки"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Destroy invalid lock",
+  "EndType": "",
+  "Category": "Lock checker",
+  "CWE": 667,
+  "TranslatedType": "Уничтожение невалидного мьютекса"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Buffer overflow",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 466,
+  "TranslatedType": "Переполнение буфера"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Garbage return value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 465,
+  "TranslatedType": "Возвращаемое значение содержит мусор"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Returning null reference",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 465,
+  "TranslatedType": "Возвращается нулевая ссылка"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Memory leak inside autorelease pool",
+  "EndType": "",
+  "Category": "Memory",
+  "CWE": 399,
+  "TranslatedType": "Утечка памяти в пуле автоматического освобождения"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Double fclose",
+  "EndType": "",
+  "Category": "Unix Stream API Error",
+  "CWE": 399,
+  "TranslatedType": "Двойной вызов fclose"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Resource Leak",
+  "EndType": "",
+  "Category": "Unix Stream API Error",
+  "CWE": 772,
+  "TranslatedType": "Утечка ресурса"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Null SmartPtr dereference",
+  "EndType": "",
+  "Category": "C++ Smart Pointer",
+  "CWE": 476,
+  "TranslatedType": "Разыменование нулевого SmartPtr"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Return of address to stack-allocated memory",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 562,
+  "TranslatedType": "Возврат адреса в память, выделенную стеком"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Address of stack-allocated memory is captured",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 1006,
+  "TranslatedType": "Захвачен адрес выделенной в стеке памяти"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Stack address stored into global variable",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 1006,
+  "TranslatedType": "Адрес стека хранится в глобальной переменной"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Unsatisfied argument constraints",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 1006,
+  "TranslatedType": "Неудовлетворительные ограничения аргумента"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Closed stream",
+  "EndType": "",
+  "Category": "Stream handling error",
+  "CWE": 1341,
+  "TranslatedType": "Поток может быть уже закрыт. Возможно неопределенное поведение."
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Invalid stream",
+  "EndType": "",
+  "Category": "Stream handling error",
+  "CWE": 399,
+  "TranslatedType": "Поток может быть в невалидном состоянии после ошибки открытия. Может привести к неопределенному поведению."
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Invalid stream state",
+  "EndType": "",
+  "Category": "Stream handling error",
+  "CWE": 399,
+  "TranslatedType": "Позиция файла потока может быть неопределенной после неудачной операции. Может привести к неопределенному поведению."
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Illegal whence argument",
+  "EndType": "",
+  "Category": "Stream handling error",
+  "CWE": 1006,
+  "TranslatedType": "Аргумент whence в fseek() должен быть SEEK_SET, SEEK_END, или SEEK_CUR."
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Stream already in EOF",
+  "EndType": "",
+  "Category": "Stream handling error",
+  "CWE": 399,
+  "TranslatedType": "Функция чтения вызывается когда поток находится в состоянии EOF. Функция ничего не делает."
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Resource leak",
+  "EndType": "",
+  "Category": "Stream handling error",
+  "CWE": 772,
+  "TranslatedType": "Открытый поток никогда не закрывается. Потенциальная утечка данных."
+ },
+ {
+  "Priority": "0.8",
+  "Type": "NULL stream pointer",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 476,
+  "TranslatedType": "Указатель на поток равен NULL"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Tainted data",
+  "EndType": "",
+  "Category": "General",
+  "CWE": 19,
+  "TranslatedType": "Помеченные данные"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Branch condition evaluates to a garbage value",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 465,
+  "TranslatedType": "Мусорное значение в условии ветвления"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "uninitialized variable captured by block",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Блок захватил неинициализированную переменную"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Result of operation is garbage or undefined",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 465,
+  "TranslatedType": "Результат операции не определён или содержит мусор"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Array subscript is undefined",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 824,
+  "TranslatedType": "Индекс массива не определен"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Assigned value is garbage or undefined",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 465,
+  "TranslatedType": "Присвоенное значение содержит мусор или неопределено"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Undefined array element count in new[]",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 399,
+  "TranslatedType": "Неопределенное количество элементов массива в new[]"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Improper use of 'open'",
+  "EndType": "",
+  "Category": "Unix API",
+  "CWE": 1228,
+  "TranslatedType": "Неуместное использование 'open'"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Improper use of 'pthread_once'",
+  "EndType": "",
+  "Category": "Unix API",
+  "CWE": 1228,
+  "TranslatedType": "Неуместное использование 'pthread_once'"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Undefined allocation of 0 bytes (CERT MEM04-C; CWE-131)",
+  "EndType": "",
+  "Category": "Unix API",
+  "CWE": 131,
+  "TranslatedType": "Неопределенное выделение 0 байтов"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Unreachable code",
+  "EndType": "",
+  "Category": "Unused code",
+  "CWE": 561,
+  "TranslatedType": "Недостижимый код"
+ },
+ {
+  "Priority": "0.5",
+  "Type": "Dangerous variable-length array (VLA) declaration",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 789,
+  "TranslatedType": "Небезопасное объявление массива переменной длины (VLA)"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Uninitialized va_list",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 824,
+  "TranslatedType": "Неинициализированный va_list"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Leaked va_list",
+  "EndType": "",
+  "Category": "Memory error",
+  "CWE": 401,
+  "TranslatedType": "Утечка va_list"
+ },
+ {
+  "Priority": "0.7",
+  "Type": "Dangerous construct in a vforked process",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 399,
+  "TranslatedType": "Небезопасная конструкция в процессе, вызванном vfork()"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Pure virtual method call",
+  "EndType": "",
+  "Category": "C++ object lifecycle",
+  "CWE": 1006,
+  "TranslatedType": "Вызов чистого виртуального метода"
+ },
+ {
+  "Priority": "0.0",
+  "Type": "Unexpected loss of virtual dispatch",
+  "EndType": "",
+  "Category": "C++ object lifecycle",
+  "CWE": 1006,
+  "TranslatedType": "Неожиданная потеря виртуальной диспетчеризации"
+ },
+ {
+  "Priority": "0.4",
+  "Type": "Uninitialized fields",
+  "EndType": "",
+  "Category": "Logic Error",
+  "CWE": 456,
+  "TranslatedType": "Неинициализированные переменные"
+ }
+]
