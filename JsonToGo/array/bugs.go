@@ -4,7 +4,7 @@ package array
 // см. также ../trace_translator/messages.go - там переводятся сами сообщения.
 // но если сообщение совпадает с типом, то переводы сообщения берутся из этой базы bugs
 
-var Bugs = []Bug{
+var bugs = []Bug{
 	{"0.7", "Out-of-bound array access", "Logic Error", 788, "Выход за пределы массива"},                                              // ArrayBoundChecker.cpp:69, "Access out-of-bound array element (buffer overflow)"
 	{"0.7", "Out-of-bound access", "Logic Error", 788, "Выход за пределы"},                                                            // ArrayBoundCheckerV2.cpp:250 + complicate
 	{"0.7", "Call to blocking function in critical section", "Blocking Error", 557, "Вызов блокирующей функции в критической секции"}, // BlockInCriticalSectionChecker.cpp:81

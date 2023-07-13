@@ -11,7 +11,6 @@ import (
 )
 
 // -- чтение JSON-файла --
-
 func loadJSON(filename string) []array.Bug {
 
 	fileJSON, err := os.Open(filename)
@@ -23,10 +22,8 @@ func loadJSON(filename string) []array.Bug {
 	data, err := ioutil.ReadAll(fileJSON)
 
 	var result []array.Bug
-
-	jsonErr := json.Unmarshal(data, &result)
-
-	if jsonErr != nil {
+	err = json.Unmarshal(data, &result)
+	if err != nil {
 		log.Fatalf("Нифига не декодируется %s", err)
 	}
 	return result
@@ -34,12 +31,10 @@ func loadJSON(filename string) []array.Bug {
 
 func main() {
 
-	data := loadJSON("clang-bugs.json")
-	fmt.Println(len(data))
+	array.LoadJsonToBugs("clang-bugs.json")
 
-	for _, arg := range data {
-		fmt.Printf("{%s %s %s %d %s},\n", arg.Priority, arg.Type, arg.Category, arg.CWE, arg.TranslatedType)
-
-	}
+	fmt.Println("------------")
+	array.PrintBugs()
+	fmt.Println("------------")
 
 }

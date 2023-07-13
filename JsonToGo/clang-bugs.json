@@ -84,14 +84,14 @@
   "TranslatedType": "В выражении, описывающем сообщение, получатель не инициализирован"
  },
  {
-  "Priority": "0.8",
+  "Priority": "0.65",
   "Type": "Called C++ object pointer is null",
   "Category": "Logic Error",
   "CWE": 476,
   "TranslatedType": "Попытка вызова по нулевому указателю на объект C++"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Called C++ object pointer is uninitialized",
   "Category": "Logic Error",
   "CWE": 824,
@@ -105,35 +105,35 @@
   "TranslatedType": "Неинициализированное значение аргумента"
  },
  {
-  "Priority": "0.8",
+  "Priority": "0.65",
   "Type": "Called function pointer is null (null dereference)",
   "Category": "Logic Error",
   "CWE": 476,
   "TranslatedType": "Попытка вызова по нулевому указателю на функцию (разыменование нулевого указателя)"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Called function pointer is an uninitialized pointer value",
   "Category": "Logic Error",
   "CWE": 824,
   "TranslatedType": "Попытка вызова по неинициализированному указателю на функцию"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.45",
   "Type": "Cast region with wrong size.",
   "Category": "Logic Error",
   "CWE": 704,
   "TranslatedType": "Приведение типа региона к типу неподходящего размера"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.45",
   "Type": "Widening cast to struct type",
   "Category": "Logic error",
   "CWE": 704,
   "TranslatedType": "Попытка преобразовать структурный тип в супертип"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.45",
   "Type": "Cast from non-struct type to struct type",
   "Category": "Logic error",
   "CWE": 704,
@@ -161,42 +161,42 @@
   "TranslatedType": "Несовместимый тип возвращаемого значения в методе экземпляра"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.35",
   "Type": "Potential insecure implementation-specific behavior in call 'vfork'",
   "Category": "Security",
   "CWE": 242,
   "TranslatedType": "Потенциально небезопасное поведение, определяемое реализацией, в вызове 'vfork'"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.35",
   "Type": "'random' is not a secure random number generator",
   "Category": "Security",
   "CWE": 338,
   "TranslatedType": "'random' не является безопасным генератором случайных чисел"
  },
  {
-  "Priority": "1.0",
+  "Priority": "0.95",
   "Type": "Potential insecure memory buffer bounds restriction in call 'strcat'",
   "Category": "Security",
   "CWE": 120,
   "TranslatedType": "Потенциально небезопасное задание границ буфера при вызове 'strcat'"
  },
  {
-  "Priority": "1.0",
+  "Priority": "0.95",
   "Type": "Potential insecure memory buffer bounds restriction in call 'strcpy'",
   "Category": "Security",
   "CWE": 120,
   "TranslatedType": "Потенциально небезопасное задание границ буфера при вызове 'strcpy'"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "Insecure temporary file creation",
   "Category": "Security",
   "CWE": 378,
   "TranslatedType": "Небезопасное создание временного файла"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "Potential insecure temporary file in call 'mktemp'",
   "Category": "Security",
   "CWE": 378,
@@ -245,7 +245,7 @@
   "TranslatedType": "Возможно непреднамеренное применение sizeof() к указателю"
  },
  {
-  "Priority": "0.8",
+  "Priority": "0.75",
   "Type": "Break out of jail",
   "Category": "Logic Error",
   "CWE": 243,
@@ -280,14 +280,14 @@
   "TranslatedType": "Попытка деструкции полиморфного объекта, не имеющего виртуального деструктора"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Dereference of undefined pointer value",
   "Category": "Logic Error",
   "CWE": 824,
   "TranslatedType": "Разыменование указателя с неопределенным значением"
  },
  {
-  "Priority": "0.8",
+  "Priority": "0.65",
   "Type": "Dereference of null pointer",
   "Category": "Logic Error",
   "CWE": 476,
@@ -322,7 +322,7 @@
   "TranslatedType": "Дженерики"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.45",
   "Type": "Enum cast out of range",
   "Category": "Logic Error",
   "CWE": 704,
@@ -343,7 +343,7 @@
   "TranslatedType": "Анти-паттерн производительности GCD"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.45",
   "Type": "Use of Untrusted Data",
   "Category": "Untrusted Data",
   "CWE": 502,
@@ -399,28 +399,28 @@
   "TranslatedType": "Итератор инвалидирован"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.55",
   "Type": "Iterator out of range",
   "Category": "Misuse of STL APIs",
   "CWE": 465,
   "TranslatedType": "Итератор вышел за пределы"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Incomplete invalidation",
   "Category": "Core Foundation/Objective-C",
   "CWE": 459,
   "TranslatedType": "Неполная инвалидация"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Incomplete invalidation",
   "Category": "Core Foundation/Objective-C",
   "CWE": 459,
   "TranslatedType": "Неполная инвалидация"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Incomplete invalidation",
   "Category": "Core Foundation/Objective-C",
   "CWE": 459,
@@ -455,7 +455,7 @@
   "TranslatedType": "Непереводимая строка"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.35",
   "Type": "Improper use of SecKeychain API",
   "Category": "API Misuse (Apple)",
   "CWE": 399,
@@ -469,7 +469,7 @@
   "TranslatedType": "Неправильное использование 'dispatch_once'"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.75",
   "Type": "Memory leak",
   "Category": "Memory error",
   "CWE": 401,
@@ -483,42 +483,42 @@
   "TranslatedType": "Плохой вызов free"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.35",
   "Type": "Use of zero allocated",
   "Category": "Memory error",
   "CWE": 399,
   "TranslatedType": "Попытка выделить блок памяти нулевого размера"
  },
  {
-  "Priority": "0.2",
+  "Priority": "0.25",
   "Type": "Double delete",
   "Category": "Memory error",
   "CWE": 415,
   "TranslatedType": "Двойной вызов delete"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.75",
   "Type": "Double free",
   "Category": "Memory error",
   "CWE": 415,
   "TranslatedType": "Двойной вызов free"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Use-after-free",
   "Category": "Memory error",
   "CWE": 416,
   "TranslatedType": "Использование после освобождения"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.75",
   "Type": "Offset free",
   "Category": "Memory error",
   "CWE": 761,
   "TranslatedType": "Вызов free с неправильным адресом блока памяти"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Bad deallocator",
   "Category": "Memory error",
   "CWE": 763,
@@ -532,7 +532,7 @@
   "TranslatedType": "Попытка освободить при помощи free блок, созданный при помощи alloca()"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Bad free",
   "Category": "Memory error",
   "CWE": 763,
@@ -602,7 +602,7 @@
   "TranslatedType": "Разыменование нулевого указателя"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "Argument with 'nonnull' attribute passed null",
   "Category": "API",
   "CWE": 476,
@@ -630,14 +630,14 @@
   "TranslatedType": "Приведение типа OSObject в C-стиле"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "Nil value used as mutex for @synchronized() (no synchronization will occur)",
   "Category": "Logic Error",
   "CWE": 662,
   "TranslatedType": "Значение nil используется как мьютекс для @synchronized (синхронизации не будет)"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "Uninitialized value used as mutex for @synchronized",
   "Category": "Logic Error",
   "CWE": 662,
@@ -700,7 +700,7 @@
   "TranslatedType": "Сортировка указателеподобных элементов"
  },
  {
-  "Priority": "0.9",
+  "Priority": "0.65",
   "Type": "Pointer subtraction",
   "Category": "Logic Error",
   "CWE": 469,
@@ -749,7 +749,7 @@
   "TranslatedType": "Двойная блокировка"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Return of pointer value outside of expected range",
   "Category": "Logic Error",
   "CWE": 466,
@@ -833,21 +833,21 @@
   "TranslatedType": "Мусорное значение в условии ветвления"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "uninitialized variable captured by block",
   "Category": "Logic Error",
   "CWE": 824,
   "TranslatedType": "Блок захватил неинициализированную переменную"
  },
  {
-  "Priority": "0.5",
+  "Priority": "0.45",
   "Type": "Result of operation is garbage or undefined",
   "Category": "Logic Error",
   "CWE": 465,
   "TranslatedType": "Результат операции не определён или содержит мусор"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Array subscript is undefined",
   "Category": "Logic Error",
   "CWE": 824,
@@ -868,21 +868,21 @@
   "TranslatedType": "Небезопасное объявление массива переменной длины (VLA)"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Leaked va_list",
   "Category": "Memory error",
   "CWE": 401,
   "TranslatedType": "Утечка va_list"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.65",
   "Type": "Uninitialized va_list",
   "Category": "Memory error",
   "CWE": 824,
   "TranslatedType": "Неинициализированный va_list"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.55",
   "Type": "Dangerous construct in a vforked process",
   "Category": "Logic Error",
   "CWE": 399,
@@ -896,21 +896,21 @@
   "TranslatedType": "Неиспользуемая инициализация"
  },
  {
-  "Priority": "0.3",
+  "Priority": "0.25",
   "Type": "Dead increment",
   "Category": "Dead store",
   "CWE": 563,
   "TranslatedType": "Неиспользуемый инкремент"
  },
  {
-  "Priority": "0.3",
+  "Priority": "0.25",
   "Type": "Dead assignment",
   "Category": "Dead store",
   "CWE": 563,
   "TranslatedType": "Неиспользуемое присваивание"
  },
  {
-  "Priority": "0.3",
+  "Priority": "0.25",
   "Type": "Dead nested assignment",
   "Category": "Dead store",
   "CWE": 563,
@@ -931,7 +931,7 @@
   "TranslatedType": "Нет вызова chdir(\"/\") сразу после chroot"
  },
  {
-  "Priority": "0.4",
+  "Priority": "0.445",
   "Type": "Uninitialized fields",
   "Category": "Logic Error",
   "CWE": 456,
@@ -966,7 +966,7 @@
   "TranslatedType": "Переменная с плавающей запятой используется как счетчик цикла"
  },
  {
-  "Priority": "0.8",
+  "Priority": "0.55",
   "Type": "Missing call to superclass",
   "Category": "Logic Error",
   "CWE": 388,
