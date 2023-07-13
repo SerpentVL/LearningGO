@@ -1,13 +1,13 @@
 [
  {
-  "Priority": "0.7",
+  "Priority": "0.57",
   "Type": "Out-of-bound array access",
   "Category": "Logic Error",
   "CWE": 788,
   "TranslatedType": "Выход за пределы массива"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.57",
   "Type": "Out-of-bound access",
   "Category": "Logic Error",
   "CWE": 788,
@@ -35,7 +35,7 @@
   "TranslatedType": "API"
  },
  {
-  "Priority": "0.7",
+  "Priority": "0.57",
   "Type": "Out-of-bound array access",
   "Category": "Logic Error",
   "CWE": 788,
@@ -329,7 +329,7 @@
   "TranslatedType": "Приводимое значение выходит за пределы перечисляемого типа"
  },
  {
-  "Priority": "0.1",
+  "Priority": "0.15",
   "Type": "Use fixed address",
   "Category": "Logic Error",
   "CWE": 587,
@@ -595,7 +595,7 @@
   "TranslatedType": "Плохой тип возвращаемого значения при передаче NSError**"
  },
  {
-  "Priority": "0.8",
+  "Priority": "0.675",
   "Type": "Dereference of null pointer",
   "Category": "Logic Error",
   "CWE": 476,
