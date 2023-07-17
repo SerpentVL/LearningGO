@@ -2,7 +2,7 @@ package main
 
 import (
 	"LearningGO/JsonToGo/array"
-	clang_log "LearningGO/JsonToGo/log"
+	"LearningGO/JsonToGo/clang_log"
 	"fmt"
 )
 
