@@ -8,8 +8,10 @@
 		},
 		{
 			"path": "GoToJsonNew"
+		},
+		{
+			"path": "JsonToGoNew"
 		}
-
 	],
 	"settings": {}
 }
