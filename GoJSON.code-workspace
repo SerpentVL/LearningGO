@@ -6,6 +6,9 @@
 		{
 			"path": "GoToJSON"
 		}
+		{
+			"path": "GoToJsonNew"
+		}
 
 	],
 	"settings": {}
