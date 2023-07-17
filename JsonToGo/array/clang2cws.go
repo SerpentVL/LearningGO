@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"os"
 	"strings"
 )
@@ -28,21 +27,24 @@ func FindCWE(bug_type string, bug_category string) *Bug {
 	return nil
 }
 
-// -- заполнение bugs изjson-файла --
-// TODO: запись в лог - отследить --
-func LoadJsonToBugs(filename string) {
+// -- заполнение bugs из json-файла --
+func LoadJsonToBugs(filename string) error {
 
 	fileJSON, err := os.Open(filename)
 	if err != nil {
-		log.Fatalf("Не открывается файл JSON: %s", err)
+		return err
 	}
 	defer fileJSON.Close()
 
 	data, err := ioutil.ReadAll(fileJSON)
+	if err != nil {
+		return err
+	}
 	err = json.Unmarshal(data, &bugs)
 	if err != nil {
-		log.Fatalf("Нифига не декодируется %s", err)
+		return err
 	}
+	return nil
 }
 
 func PrintBugs() {
