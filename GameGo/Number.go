@@ -39,7 +39,7 @@ func Work(number int) int {
 
 func main() {
 
-	var number int = 30
+	var number int = 30 // -- это число нужно сделать параметром командной строки --
 	fmt.Println("--------------")
 	fmt.Println("Привет, Анюта!")
 	fmt.Println("--------------")
